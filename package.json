@@ -1,0 +1,24 @@
+{
+  "name": "freeindexer",
+  "version": "1.0.0",
+  "description": "javascript array indexer",
+  "main": "index.js",
+  "dependencies": {
+    "awesome-typescript-loader": "^5.2.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "node ./node_modules/typescript/bin/tsc",
+    "build": "npm run package && node ./node_modules/webpack/bin/webpack.js"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "gloria",
+  "license": "ISC"
+}
